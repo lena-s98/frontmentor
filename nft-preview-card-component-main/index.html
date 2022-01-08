@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="style.css" rel="stylesheet" type="text/css">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="card-box">
+  <div class="nft-card">
+    <div class="main-image-container">
+      <img src="./images/image-equilibrium.jpg" width="400px" height="400px"/>
+      <div class="overlay-image" onclick='window.location.href="https://www.geeksforgeeks.org/how-to-create-image-overlay-hover-using-html-css/"'></div>
+    </div>
+    <a class="title" href="#">Equilibrium #3429</a>
+    <p class="description">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="val-time">
+
+      <div>
+        <img src="./images/icon-ethereum.svg"/>
+        <p id="value-color">0.041 ETH</p>
+      </div>
+      <div>
+        <img src="./images/icon-clock.svg"/>
+      <p class="description">3 days left</p>
+      </div>
+      
+    </div>
+
+    <div class="footer">
+      <img src="./images/image-avatar.png"/>
+      <span>Creation of</span><a href="#">Jules Wyvern</a>
+    </div>
+      
+  </div>
+</div>
+  
+
+<div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Lena</a>.
+</div>
+</body>
+</html>

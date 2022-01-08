@@ -1,0 +1,122 @@
+body {
+    box-sizing: content-box;
+    width: 1440px;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card-box {
+    border: 1px solid hsl(215, 32%, 27%);
+    border-radius: 10px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    width: 500px;
+    margin: 0 auto;
+}
+
+.nft-card {
+    margin: 50px;
+    width: 400px;
+}
+
+img {
+    border-radius: 10px;
+}
+
+.main-image-container {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 15px;
+}
+
+.main-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-image: url(./images/image-equilibrium.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.overlay-image {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    opacity: 0;
+    top: 0;
+    background-image: url(./images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-color: hsl(178, 100%, 50%);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.overlay-image:hover {
+    transition: 1s;
+    opacity: 0.5;
+}
+
+.title {
+    font-size: 1.5em;
+}
+
+.description {
+    color: hsl(215, 51%, 70%);
+}
+
+.val-time {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.val-time div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100px;
+    
+}
+
+.val-time div img {
+    align-self: center;
+}
+
+#value-color {
+    color: hsl(178, 100%, 50%);
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    margin-top: 10px;
+}
+
+.footer img {
+    width: 40px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.footer span {
+    color: hsl(215, 51%, 70%);
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: hsl(178, 100%, 50%);
+}
